@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card
+        {
+            width:400px;
+            padding:10px;
+            margin:30px auto;
+            border:1px solid rgb(199, 198, 198);
+            border-radius: 14px;
+            box-sizing: border-box;
+        }
+
+        .card img
+        {
+            width:100%;
+            height:170px !important;
+            border-radius: 14px;
+        }
+
+        .inp
+        {
+            width:98%;
+            box-sizing: border-box;
+            padding:10px;
+            border-radius: 8px;
+            margin-top:10px;
+            border:1px solid rgb(209, 207, 207);
+            font-size: 14px;
+        }
+
+        .inp:focus
+        {
+            outline: none;
+            border:1px solid rgb(113, 112, 112);
+        }
+
+        .btn
+        {
+            width:98%;
+            text-align: center;
+            padding:10px;
+            background-color: black;
+            color:white;
+            border-radius: 8px;
+            margin-top:10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://source.unsplash.com/800x800/?code">
+        <h2>Master the skill to manage Coding</h2>
+        <p style="text-align:justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, provident. Deserunt adipisci et sed illo, necessitatibus molestias neque natus tempora, impedit reiciendis iste odio praesentium dolorem quasi debitis. In, laudantium!</p>
+        <form action="/register" method="post">
+            <input type="text" class="inp" placeholder="Enter your name" name="name">
+            <input type="email" class="inp" placeholder="Enter your email" name="email">
+            <button class="btn" type="submit">Register Now</button>
+        </form>
+        
+
+    </div>
+</body>
+</html>
